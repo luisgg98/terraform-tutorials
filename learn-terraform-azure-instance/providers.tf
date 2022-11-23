@@ -1,0 +1,21 @@
+## <https://www.terraform.io/docs/providers/azurerm/index.html>
+# Configure the Azure provider
+terraform {
+  required_version = ">=0.12"
+
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~>2.0"
+    }
+    
+    tls = {
+      source = "hashicorp/tls"
+      version = "~>4.0"
+    }
+  }
+}
+
+provider "azurerm" {
+  features {}
+}
