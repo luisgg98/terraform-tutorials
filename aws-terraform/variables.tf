@@ -51,7 +51,3 @@ variable "ec2_aws_ami_mongodb" {
 variable "ec2_aws_ami_nodejs" {
   default = "ami-0b4c167beafc093df"
 }
-
-variable "root_password" {
-  default = "1234567890asdfghjklpoiuytrewqzxcvbnm1234567890"
-}
